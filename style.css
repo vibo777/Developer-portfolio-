@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+body {
+    background: black !important;
+    font-family: 'Sen', sans-serif !important;
+}
+
+h1 {
+    font-size: 70px !important;
+}
+
+.navbar-section {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.hero {
+    height: 100vh;
+    overflow: hidden;
+} 
+
+.hero img{
+    max-width: 100%;
+    width: 100%;
+}
+.hero .inner-text{
+    position: relative;
+    left: -50px;
+    color: white;
+    background-color: rgb(23,23,31);
+}
+.hero .inner-text .sub-inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    left: -80px;
+}
+
+.hero .sub-head {
+    font-size: 18px;
+}
+.custom-nav a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.contact-highlight {
+    background: #5221e6;
+}
+.work .sub-head {
+    font-size: 6em;
+}
+.work .sub-head-1 {
+    font-size: 24px;
+}
+.work h2 {
+    font-size: 50px;
+}
+.green-color {
+    color: #3cc74e;
+}
+.article {
+    height: 80vh;
+    overflow: hidden;
+}
+.article img {
+    position: relative;
+    top: -10em;
+}
+.article .d-flex div:first-child {
+    background: #fff3e4;
+}
+.article .custom-btn {
+    background: none;
+    border: none;
+    border-bottom: 2px solid;
+    padding: 10px;
+}
+.article h2, .skillset h2 {
+    font-size: 4em;       
+}
+.article p, .skillset p {
+    font-size: 18px;       
+    opacity: 0.6;
+}
+.slider .d-flex div {
+    border: 1px solid;
+}
+
+@media (max-width : 430px) {
+    .hero .inner-text{
+        left: auto;
+    }
+    .hero .inner-text .sub-inner{
+        left: auto;
+    }
+    h1{
+        font-size: 40px !important;
+        display: grid;
+        columns: 12;
+    }
+    .article img{
+        top: auto;
+    }
+    .article {
+        height: auto;
+    }
+}
+
+input[type = "text"],input[type = "email"],input[type = "text"], textarea{
+    background-color: rgb(23,23,31);
+}
+
+ 
+footer{
+    background-color: rgb(23,23,31);
+    padding: 14%;
+    text-align: center;
+    color: white;
+}
